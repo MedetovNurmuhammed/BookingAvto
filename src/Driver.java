@@ -8,10 +8,9 @@ public class Driver {
 
 
 
-    public Driver(String name, String lastname, int age, long phonenumber) {
+    public Driver(String name, String lastname,  long phonenumber) {
         this.name = name;
         this.lastname = lastname;
-        this.age = age;
         this.phonenumber = phonenumber;
     }
 
@@ -29,14 +28,6 @@ public class Driver {
 
     public void setLastname(String lastname) {
         this.lastname = lastname;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
     }
 
     public long getPhonenumber() {
